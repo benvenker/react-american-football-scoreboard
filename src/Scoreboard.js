@@ -2,10 +2,6 @@ import React, { useState, useEffect } from "react";
 import BottomRow from "./BottomRow";
 
 const Scoreboard = ({ homeScore, awayScore }) => {
-  let minutes = 15;
-  let seconds = 59;
-  const [minutesLeft, setMinutesLeft] = useState(minutes);
-  const [secondsLeft, setSecondsLeft] = useState(seconds);
   const [timeLeft, setTimeLeft] = useState(`15:00`);
 
   const startTimer = (duration) => {
