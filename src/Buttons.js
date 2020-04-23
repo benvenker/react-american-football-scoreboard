@@ -1,5 +1,4 @@
 import React from "react";
-import BottomRow from "./BottomRow";
 
 const Buttons = ({ setHomeScore, homeScore, setAwayScore, awayScore }) => {
   return (
